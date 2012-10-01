@@ -6,8 +6,10 @@
     <script>
         $(document).ready(function() {
             $('textarea#paste').on("keyup paste", function() {
-                var numChars = $('textarea#paste').val().length;
-                $('span#count').text(numChars);
+                setTimeout(function() {
+                    var numChars = $('textarea#paste').val().length;
+                    $('span#count').text(numChars);
+                }, 50);
             });
         });
     </script>
