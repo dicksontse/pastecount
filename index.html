@@ -5,7 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
-            $('textarea#paste').change(function() {
+            $('textarea#paste').on("keyup paste", function() {
                 var numChars = $('textarea#paste').val().length;
                 $('span#count').text(numChars);
             });
