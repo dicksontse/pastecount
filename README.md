@@ -1,3 +1,3 @@
 # PasteCount
 
-A minimalistic website to count the number of characters in a block of text.
+A minimalistic application to count the number of characters in a block of text.
