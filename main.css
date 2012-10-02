@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    font-family: source-sans-pro, serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#paste {
+    background-color: #f7f7f7;
+    border: 1px solid #bcbcbc;
+    display: block;
+    margin: 0 auto;
+    resize: vertical;
+}
+
+#count {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+#count span {
+    color: #539fff;
+    margin-left: 15px;
+}
