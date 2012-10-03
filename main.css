@@ -36,6 +36,7 @@ h2 {
     border: 1px solid #bcbcbc;
     display: block;
     margin: 0 auto;
+    max-width: 960px;
     resize: vertical;
 }
 
