@@ -2,9 +2,33 @@ body {
     font-family: 'Asap', sans-serif;
 }
 
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #555555;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
 #container {
     width: 960px;
     margin: 0 auto;
+}
+
+#source {
+    float: right;
+}
+
+#source a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+#source a:hover {
+    text-decoration: underline;
 }
 
 #paste {
@@ -16,11 +40,12 @@ body {
 }
 
 #count {
+    color: #777777;
     font-size: 20px;
     margin: 15px 0;
 }
 
 #count span {
-    color: #539fff;
-    margin-left: 15px;
+    color: #000000;
+    margin-left: 5px;
 }
