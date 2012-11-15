@@ -7,14 +7,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
+            function changeColor(numChars) {
+                if (numChars > 0) {
+                    $('div#count span').removeClass('zero');
+                }
+                else {
+                    $('div#count span').addClass('zero');
+                }
+            }
+
             $('textarea#paste').on("paste", function() {
                 setTimeout(function() {
                     var numChars = $('textarea#paste').val().length;
                     $('div#count span').text(numChars);
+                    changeColor(numChars);
                 }, 150);
             }).on("keyup", function() {
                 var numChars = $('textarea#paste').val().length;
                 $('div#count span').text(numChars);
+                changeColor(numChars);
             });
         });
     </script>
@@ -25,12 +36,9 @@
     </noscript>
     <div id="container">
         <h1>PasteCount</h1>
-        <h2>
-            a lightweight character counter
-            <span id="source">GitHub: <a href="https://github.com/dicksontse/pastecount" target="_blank">dicksontse/pastecount</a></span>
-        </h2>
+        <h2>a lightweight character counter</h2>
         <textarea id="paste" rows="20" placeholder="Paste or enter text here."></textarea>
-        <div id="count">Characters: <span>0</span></div>
+        <div id="count">Characters: <span class="zero">0</span></div>
     </div>
 </body>
 </html>

@@ -34,19 +34,6 @@ h2 {
     margin: 0 auto;
 }
 
-#source {
-    float: right;
-}
-
-#source a {
-    color: #1e90ff;
-    text-decoration: none;
-}
-
-#source a:hover {
-    text-decoration: underline;
-}
-
 #paste {
     width: 944px;
     background-color: #f7f7f7;
@@ -58,7 +45,7 @@ h2 {
 }
 
 #count {
-    color: #777777;
+    color: #333333;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 18px;
     line-height: 20px;
@@ -66,6 +53,9 @@ h2 {
 }
 
 #count span {
-    color: #000000;
-    margin-left: 5px;
+    color: #008000;
+}
+
+#count .zero {
+    color: #800000;
 }
