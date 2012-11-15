@@ -15,7 +15,7 @@ h2 {
     color: #555555;
     font-size: 15px;
     font-weight: normal;
-    line-height: 20px;
+    line-height: 18px;
     margin-top: 0;
     margin-bottom: 15px;
 }
@@ -48,20 +48,21 @@ h2 {
 }
 
 #paste {
-    width: 100%;
+    width: 944px;
     background-color: #f7f7f7;
     border: 1px solid #bcbcbc;
     display: block;
     margin: 0 auto;
+    padding: 7px;
     resize: vertical;
 }
 
 #count {
     color: #777777;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 #count span {
