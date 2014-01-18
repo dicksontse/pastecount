@@ -1,61 +1,60 @@
 body {
-    background-image: url('images/bg.png');
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    margin: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0;
 }
 
 h1 {
-    font-size: 30px;
-    line-height: 32px;
-    margin-top: 15px;
-    margin-bottom: 0px;
+  font-size: 30px;
+  line-height: 32px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 h2 {
-    color: #555555;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 18px;
-    margin-top: 0;
-    margin-bottom: 15px;
+  color: #555555;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 #noscript-message {
-    width: 100%;
-    background-color: #ff0000;
-    color: #ffffff;
-    font-size: 16px;
-    padding: 5px 0;
-    text-align: center;
+  width: 100%;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 0;
+  text-align: center;
 }
 
 #container {
-    width: 960px;
-    margin: 0 auto;
+  width: 960px;
+  margin: 0 auto;
 }
 
 #paste {
-    width: 944px;
-    background-color: #f7f7f7;
-    border: 1px solid #bcbcbc;
-    display: block;
-    margin: 0 auto;
-    padding: 7px;
-    resize: vertical;
+  width: 944px;
+  background-color: #f7f7f7;
+  border: 1px solid #bcbcbc;
+  display: block;
+  margin: 0 auto;
+  padding: 7px;
+  resize: vertical;
 }
 
 #count {
-    color: #333333;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    margin: 5px 0;
+  color: #333333;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 5px 0;
 }
 
 #count span {
-    color: #008000;
+  color: #008000;
 }
 
 #count .zero {
-    color: #800000;
+  color: #800000;
 }
