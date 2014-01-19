@@ -1,22 +1,14 @@
 body {
+  background-color: #f7f7f7;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0;
 }
 
 h1 {
+  color: #333333;
   font-size: 30px;
   line-height: 32px;
-  margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  color: #555555;
-  font-size: 15px;
-  font-weight: normal;
-  line-height: 18px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 #noscript-message {
@@ -35,7 +27,7 @@ h2 {
 
 #paste {
   width: 944px;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   border: 1px solid #bcbcbc;
   display: block;
   margin: 0 auto;
