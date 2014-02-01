@@ -1,11 +1,11 @@
 body {
-  background-color: #f7f7f7;
+  background-color: #F4F9FB;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0;
 }
 
 h1 {
-  color: #333333;
+  color: #6bbfe0;
   font-size: 30px;
   line-height: 32px;
   margin: 15px 0;
@@ -28,15 +28,17 @@ h1 {
 #paste {
   width: 944px;
   background-color: #ffffff;
-  border: 1px solid #bcbcbc;
+  border: 1px solid #DDEFF6;
   display: block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
   margin: 0 auto;
   padding: 7px;
   resize: vertical;
 }
 
 #count {
-  color: #333333;
+  color: #6bbfe0;
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 18px;
   line-height: 20px;
