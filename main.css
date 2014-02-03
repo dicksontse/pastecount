@@ -1,6 +1,6 @@
 body {
   background-color: #F4F9FB;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
   margin: 0;
 }
 
@@ -30,7 +30,6 @@ h1 {
   background-color: #ffffff;
   border: 1px solid #DDEFF6;
   display: block;
-  font-family: "Lucida Console", Monaco, monospace;
   font-size: 14px;
   margin: 0 auto;
   padding: 7px;
@@ -39,7 +38,6 @@ h1 {
 
 #count {
   color: #6bbfe0;
-  font-family: Tahoma, Geneva, sans-serif;
   font-size: 18px;
   line-height: 20px;
   margin: 5px 0;
